@@ -3,8 +3,12 @@
     <header>
       <nav>
         <router-link to="/">Home</router-link> |
+        <router-link to="/composition-api">Composition API</router-link> |
         <router-link to="/fragment">Fragment</router-link> |
-        <router-link to="/suspense">Suspense</router-link>
+        <router-link to="/suspense">Suspense</router-link> |
+        <router-link to="/portal">Portal</router-link> |
+        <router-link to="/multiple">Multiple v-model</router-link> |
+        <router-link to="/transition">Transition</router-link> 
       </nav>
     </header>
     <main>
@@ -16,6 +20,7 @@
 
 <script>
 import MyFooter from '@/components/MyFooter'
+
 export default {
   components: {MyFooter}
 }
