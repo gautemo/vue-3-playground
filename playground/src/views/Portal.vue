@@ -3,6 +3,7 @@
         <section class="top">
             <h1>Chat</h1>
             <div id="display">
+                <p class="time">{{time}}</p>
             </div>
         </section>
         <section class="main" v-if="mounted">
@@ -20,7 +21,18 @@ export default {
     setup(){
         const mounted = ref(false);
         onMounted(() => mounted.value = true)
-        return {mounted}
+
+        const time = ref('');
+
+        setInterval(() => {
+            time.value = new Intl.DateTimeFormat('default', {
+                hour: 'numeric',
+                minute: 'numeric',
+                second: 'numeric'
+            }).format(new Date())
+        }, 1000);
+
+        return {mounted, time}
     }
 }
 </script>
@@ -49,5 +61,19 @@ export default {
 }
 h1{
     flex: 1;
+}
+
+.time{
+    font-size: 2em;
+    text-align: center;
+}
+
+#display{
+    position: relative;
+    background: white;
+    border-radius: 5px;
+    border: 3px solid black;
+    height: 80px;
+    width: 160px;
 }
 </style>

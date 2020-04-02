@@ -25,17 +25,16 @@ export default {
   opacity: 0;
 }
 .fade-enter-to{
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .fade-leave-active{
-    transition: all 2s;
+  transition: all 2s;
 }
 
 .fade-leave-to{
-  transform: translateX(1000px);
-  opacity: 0;
-  filter: invert(0);
+  transform: translateX(1500px);
+  opacity: 0.2;
 }
 
 

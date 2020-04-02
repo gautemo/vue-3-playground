@@ -21,10 +21,13 @@ export default {
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 
 .alert{
-    background: white;
-    border-radius: 5px;
-    border: 3px solid black;
     padding: 0 20px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: red;
 }
 
 h2{
@@ -35,7 +38,7 @@ h2{
   width: 40px;
   height: 40px;
   font-size: 40px;
-  color: #d88405;
+  color: #ffffff;
   animation: ring 4s .2s ease-in-out infinite;
   transform-origin: 50% 4px;
 }

@@ -31,9 +31,9 @@ npm i @posva/vue-router-next --save
 Some changes are required on the router. See more examples other than this repo [here](https://github.com/vuejs/vue-router-next/tree/master/playground).
 
 ## Articles
-[Vue 3: Start Using it Today](https://www.vuemastery.com/blog/vue-3-start-using-it-today/)
-[Exciting new features in Vue 3](https://vueschool.io/articles/vuejs-tutorials/exciting-new-features-in-vue-3/)
-[Portal – a new feature in Vue 3](https://vueschool.io/articles/vuejs-tutorials/portal-a-new-feature-in-vue-3/)
+* [Vue 3: Start Using it Today](https://www.vuemastery.com/blog/vue-3-start-using-it-today/)
+* [Exciting new features in Vue 3](https://vueschool.io/articles/vuejs-tutorials/exciting-new-features-in-vue-3/)
+* [Portal – a new feature in Vue 3](https://vueschool.io/articles/vuejs-tutorials/portal-a-new-feature-in-vue-3/)
 
 ## Videos
 * [State of the Vuenion](https://www.vuemastery.com/conferences/vueconf-us-2020/state-of-the-vuenion/)
