@@ -3,6 +3,8 @@ import Home from '@/views/Home'
 import Fragment from '@/views/Fragment'
 import Suspense from '@/views/Suspense'
 import CompositionApi from '@/views/CompositionApi'
+import CompositionApi2 from '@/views/CompositionApi2'
+import CompositionApi3 from '@/views/CompositionApi3'
 import Portal from '@/views/Portal'
 import Multiple from '@/views/Multiple'
 import Transit from '@/views/Transit'
@@ -15,6 +17,14 @@ const routes = [
   {
     path: '/composition-api',
     component: CompositionApi
+  },
+  {
+    path: '/composition-api2',
+    component: CompositionApi2
+  },
+  {
+    path: '/composition-api3',
+    component: CompositionApi3
   },
   {
     path: '/fragment',

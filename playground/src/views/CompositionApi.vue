@@ -5,11 +5,14 @@
         <p>Added: {{added}}</p>
         <button @click="up">Up Count 1</button>
         <button @click="upState">Up Count 2</button>
+
+        <p>{{fullname}}</p>
+        <input type="text" v-model="firstname">
     </div>
 </template>
 
 <script>
-import { ref, reactive, computed, watchEffect, watch, onMounted, onUnmounted } from 'vue';
+import { ref, reactive, computed, watchEffect, watch, onMounted, onUnmounted, toRefs } from 'vue';
 
 export default {
     setup(){
@@ -17,6 +20,13 @@ export default {
 
         const state = reactive({
             count: 0
+        })
+
+        const me = reactive({
+            firstname: 'Gaute ',
+            lastname: 'Meek Olsen',
+            age: 28,
+            fullname: computed(() => me.firstname + me.lastname)
         })
 
         const up = () => counter.value++;
@@ -31,7 +41,7 @@ export default {
 
         onUnmounted(() => console.log('DOM is gone'))
 
-        return { counter, state, up, upState, added }
+        return { counter, state, up, upState, added, ...toRefs(me) }
     }
 }
 </script>

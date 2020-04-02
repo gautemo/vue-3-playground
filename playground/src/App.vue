@@ -4,6 +4,8 @@
       <nav>
         <router-link to="/">Home</router-link> |
         <router-link to="/composition-api">Composition API</router-link> |
+        <router-link to="/composition-api2">Composition API 2</router-link> |
+        <router-link to="/composition-api3">Composition API 3</router-link> |
         <router-link to="/fragment">Fragment</router-link> |
         <router-link to="/suspense">Suspense</router-link> |
         <router-link to="/portal">Portal</router-link> |
