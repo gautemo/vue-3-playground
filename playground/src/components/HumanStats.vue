@@ -2,11 +2,11 @@
     <div>
         <label>
             Age:
-            <input type="number" v-model="age" v-on:input="updateAge($event.target.value)">
+            <input type="number" v-model="age" v-on:input="updateAge($event.target.value)" step="3">
         </label>
         <label>
             Height:
-            <input type="number" v-model="height" v-on:input="updateHeight($event.target.value)">
+            <input type="number" v-model="height" v-on:input="updateHeight($event.target.value)" step="3">
         </label>
     </div>
 
