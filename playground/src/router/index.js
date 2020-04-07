@@ -5,7 +5,7 @@ import Suspense from '@/views/Suspense'
 import CompositionApi from '@/views/CompositionApi'
 import CompositionApi2 from '@/views/CompositionApi2'
 import CompositionApi3 from '@/views/CompositionApi3'
-import Portal from '@/views/Portal'
+import Teleport from '@/views/Teleport'
 import Multiple from '@/views/Multiple'
 import Transit from '@/views/Transit'
 
@@ -35,8 +35,8 @@ const routes = [
     component: Suspense
   },
   {
-    path: '/portal',
-    component: Portal
+    path: '/teleport',
+    component: Teleport
   },
   {
     path: '/multiple',

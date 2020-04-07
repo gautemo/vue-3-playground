@@ -2,11 +2,11 @@
     <div>
         <label>
             Age:
-            <input type="number" v-model="age" v-on:input="updateAge($event.target.value)" step="3">
+            <input type="number" v-model="age" v-on:input="$attrs['onUpdate:age']($event.target.value)" step="3">
         </label>
         <label>
             Height:
-            <input type="number" v-model="height" v-on:input="updateHeight($event.target.value)" step="3">
+            <input type="number" v-model="height" v-on:input="$attrs['onUpdate:height']($event.target.value)" step="3">
         </label>
     </div>
 
@@ -15,10 +15,9 @@
 <script>
 import { ref } from 'vue'
 export default {
+    props: ['age', 'height'],
     setup(props){
-        const updateAge = props['onUpdate:age']
-        const updateHeight = props['onUpdate:height']
-        return { ...props, updateAge, updateHeight }
+        return { ...props }
     }
 }
 </script>

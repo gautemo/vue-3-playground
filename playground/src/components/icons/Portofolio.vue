@@ -11,8 +11,9 @@
 
 <script>
 export default {
-  setup(size){
-    return size
+  props: ['size'],
+  setup({size}){
+    return { size }
   }
 };
 </script>

@@ -8,7 +8,7 @@
         <router-link to="/composition-api3">Composition API 3</router-link> |
         <router-link to="/fragment">Fragment</router-link> |
         <router-link to="/suspense">Suspense</router-link> |
-        <router-link to="/portal">Portal</router-link> |
+        <router-link to="/teleport">Teleport</router-link> |
         <router-link to="/multiple">Multiple v-model</router-link> |
         <router-link to="/transition">Transition</router-link> 
       </nav>

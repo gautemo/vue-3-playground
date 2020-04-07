@@ -1,9 +1,9 @@
 <template>
     <div>
         <button @click="calling = !calling">Call my friend</button>
-        <Portal target="#display">
+        <Teleport to="#display">
             <div class="alert" v-if="calling"><h2>Call</h2> <span class="bell fa fa-bell"></span></div>
-        </Portal>
+        </Teleport>
     </div>
 </template>
 
