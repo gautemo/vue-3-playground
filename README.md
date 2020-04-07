@@ -6,7 +6,6 @@ Vue 3 Playground
 * [Roadmap](https://github.com/vuejs/vue/projects/6)
 * [RFCs](https://github.com/vuejs/rfcs) - Request for comments, usful to find breaking changes
 * [GitHub - vue-router-next](https://github.com/vuejs/vue-router-next) - Repository for Vue router for Vue 3
-* [Composition API](https://vue-composition-api-rfc.netlify.com/) - Documentation
 * [Template explorer](https://vue-next-template-explorer.netlify.com/)
 * [https://github.com/vuejs/composition-api](https://github.com/vuejs/composition-api) - for Composition API only
 
@@ -31,6 +30,7 @@ npm i @posva/vue-router-next --save
 Some changes are required on the router. See more examples other than this repo [here](https://github.com/vuejs/vue-router-next/tree/master/playground).
 
 ## Articles
+* [Vue Composition API](https://vue-composition-api-rfc.netlify.com/)
 * [Vue 3: Start Using it Today](https://www.vuemastery.com/blog/vue-3-start-using-it-today/)
 * [Exciting new features in Vue 3](https://vueschool.io/articles/vuejs-tutorials/exciting-new-features-in-vue-3/)
 * [Portal – a new feature in Vue 3](https://vueschool.io/articles/vuejs-tutorials/portal-a-new-feature-in-vue-3/)
