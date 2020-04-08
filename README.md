@@ -30,6 +30,7 @@ npm i @posva/vue-router-next --save
 Some changes are required on the router. See more examples other than this repo [here](https://github.com/vuejs/vue-router-next/tree/master/playground).
 
 ## Articles
+* [Vue 3 is Coming!](https://dev.to/gautemeekolsen/vue-3-is-coming-3icj)
 * [Vue Composition API](https://vue-composition-api-rfc.netlify.com/)
 * [Vue 3: Start Using it Today](https://www.vuemastery.com/blog/vue-3-start-using-it-today/)
 * [Exciting new features in Vue 3](https://vueschool.io/articles/vuejs-tutorials/exciting-new-features-in-vue-3/)
