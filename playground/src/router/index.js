@@ -1,4 +1,4 @@
-import { createRouter, createHistory } from '@posva/vue-router-next'
+import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@/views/Home'
 import Fragment from '@/views/Fragment'
 import Suspense from '@/views/Suspense'
@@ -49,6 +49,6 @@ const routes = [
 ]
 
 export const router = createRouter({
-  history: createHistory(),
+  history: createWebHistory(),
   routes
 })

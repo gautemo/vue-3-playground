@@ -23,9 +23,8 @@ vue add vue-next
 Some changes are needed in [main.js](src/main.js)
 
 ### Vue router
-Change router dependency to [vue-router-next](https://www.npmjs.com/package/@posva/vue-router-next)
 ```
-npm i @posva/vue-router-next --save
+npm i --save vue-router@4.0.0-alpha.5
 ```
 Some changes are required on the router. See more examples other than this repo [here](https://github.com/vuejs/vue-router-next/tree/master/playground).
 
