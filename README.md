@@ -24,7 +24,7 @@ Some changes are needed in [main.js](src/main.js)
 
 ### Vue router
 ```
-npm i --save vue-router@4.0.0-alpha.5
+npm i --save vue-router@4.0.0-alpha.6
 ```
 Some changes are required on the router. See more examples other than this repo [here](https://github.com/vuejs/vue-router-next/tree/master/playground).
 
