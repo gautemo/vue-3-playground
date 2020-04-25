@@ -6,7 +6,7 @@
                 <p class="time">{{time}}</p>
             </div>
         </section>
-        <section class="main" v-if="mounted">
+        <section class="main">
             <VideoRoom/>
         </section>
     </div>
@@ -14,14 +14,11 @@
 
 <script>
 import VideoRoom from '@/components/VideoRoom'
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 
 export default {
     components: {VideoRoom},
     setup(){
-        const mounted = ref(false);
-        onMounted(() => mounted.value = true)
-
         const time = ref('');
 
         setInterval(() => {
@@ -32,7 +29,7 @@ export default {
             }).format(new Date())
         }, 1000);
 
-        return {mounted, time}
+        return {time}
     }
 }
 </script>

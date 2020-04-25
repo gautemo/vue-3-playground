@@ -22,6 +22,9 @@ vue add vue-next
 ```
 Some changes are needed in [main.js](src/main.js)
 
+### Vite
+Another easy way to try out Vue 3 is using [Vite⚡](https://github.com/vuejs/vite)
+
 ### Vue router
 ```
 npm i --save vue-router@4.0.0-alpha.6
