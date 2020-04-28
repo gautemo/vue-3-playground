@@ -47,6 +47,7 @@ Some changes are required on the router. See more examples other than this repo 
 * [Gregg Pollack - Introduction into the Composition API - Vue.js Amsterdam](https://www.youtube.com/watch?v=FGKpOLG34xE)
 * [Thorsten Lünborg - Composition API Best Practices - Vue.js Amsterdam 2020](https://www.youtube.com/watch?v=6D58SI9P-aU)
 * [Vue 3 & A First Look at the Composition API](https://www.youtube.com/watch?v=V-xK3sbc7xI)
+* [Evan You - State of Vue on Beta release day](https://www.youtube.com/watch?v=Nk3cC7xNfkk)
 
 ## Podcasts
 * [Evan You - What's Coming in Vue.js 3.0](http://www.fullstackradio.com/129)
