@@ -37,6 +37,7 @@ Some changes are required on the router. See more examples other than this repo 
 * [Vue 3: Start Using it Today](https://www.vuemastery.com/blog/vue-3-start-using-it-today/)
 * [Exciting new features in Vue 3](https://vueschool.io/articles/vuejs-tutorials/exciting-new-features-in-vue-3/)
 * [Portal – a new feature in Vue 3](https://vueschool.io/articles/vuejs-tutorials/portal-a-new-feature-in-vue-3/)
+* [Reactivity: Vue 2 vs Vue 3](https://www.vuemastery.com/blog/Reactivity-Vue2-vs-Vue3/)
 
 ## Videos
 * [State of the Vuenion](https://www.vuemastery.com/conferences/vueconf-us-2020/state-of-the-vuenion/)
@@ -48,6 +49,7 @@ Some changes are required on the router. See more examples other than this repo 
 * [Thorsten Lünborg - Composition API Best Practices - Vue.js Amsterdam 2020](https://www.youtube.com/watch?v=6D58SI9P-aU)
 * [Vue 3 & A First Look at the Composition API](https://www.youtube.com/watch?v=V-xK3sbc7xI)
 * [Evan You - State of Vue on Beta release day](https://www.youtube.com/watch?v=Nk3cC7xNfkk)
+* [Alex Kyriakidis - What you'll love in Vue 3 - Vue.js Amsterdam 2020](https://www.youtube.com/watch?v=eQpVcZa8dVQ)
 
 ## Podcasts
 * [Evan You - What's Coming in Vue.js 3.0](http://www.fullstackradio.com/129)
