@@ -10,7 +10,8 @@
 import { getLikes } from '@/likesOwn';
 export default {
     setup(){
-        return { ...getLikes() }
+        const { likes, superLike } = getLikes();
+        return { likes, superLike }
     }
 }
 </script>
