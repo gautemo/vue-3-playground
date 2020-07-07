@@ -25,6 +25,9 @@ Some changes are needed in [main.js](src/main.js)
 
 ### Vite
 Another easy way to try out Vue 3 is using [Vite⚡](https://github.com/vuejs/vite)
+```
+npm init vite-app hello-vue3
+```
 
 ### Vue router
 ```
